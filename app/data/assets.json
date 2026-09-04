@@ -1,0 +1,524 @@
+{
+  "assets": [
+  {
+    "name": "LKOH",
+    "market": "Московская биржа",
+    "risk": "Среднерисковый",
+    "asset": "Акция",
+    "parameter": "5.13%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "ROSN",
+    "market": "Московская биржа",
+    "risk": "Среднерисковый",
+    "asset": "Акция",
+    "parameter": "2.88%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "NVTK",
+    "market": "Московская биржа",
+    "risk": "Среднерисковый",
+    "asset": "Акция",
+    "parameter": "3.76%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "HKEX",
+    "market": "СПБ Биржа",
+    "risk": "Среднерисковый",
+    "asset": "Акция",
+    "parameter": "3.13%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "SEHK",
+    "market": "СПБ Биржа",
+    "risk": "Среднерисковый",
+    "asset": "Акция",
+    "parameter": "3.13%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "NVDA",
+    "market": "NASDAQ",
+    "risk": "Среднерисковый",
+    "asset": "Акция",
+    "parameter": "0.02%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "GOOGL",
+    "market": "NASDAQ",
+    "risk": "Среднерисковый",
+    "asset": "Акция",
+    "parameter": "0.26%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "AAPL",
+    "market": "NASDAQ",
+    "risk": "Среднерисковый",
+    "asset": "Акция",
+    "parameter": "0.40%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "ОФЗ 26254",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Облигация",
+    "parameter": "13.00%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "Сбербанк ПАО 001Р-SBER52",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Облигация",
+    "parameter": "14.20%",
+    "liquidity": "Средняя",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "ГТЛК 002P-12",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Облигация",
+    "parameter": "16.25%",
+    "liquidity": "Средняя",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "РЖД БО 001P-52R",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Облигация",
+    "parameter": "14.50%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "Газпром Нефть 003P-15R",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Облигация",
+    "parameter": "2%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "Мобильные ТелеСистемы 002Р-16",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Облигация",
+    "parameter": "16.75%",
+    "liquidity": "Средняя",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "Яндекс 001Р-02",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Облигация",
+    "parameter": "13.50%",
+    "liquidity": "Высокая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "Атомэнергопром 001P-05",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Облигация",
+    "parameter": "17.3%",
+    "liquidity": "Средняя",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "EUR",
+    "market": "Forex",
+    "risk": "Среднерисковый",
+    "asset": "Валюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Среднесрочный/Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "USD",
+    "market": "Forex",
+    "risk": "Среднерисковый",
+    "asset": "Валюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Среднесрочный/Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "RUB",
+    "market": "Московская биржа",
+    "risk": "Среднерисковый",
+    "asset": "Валюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Среднесрочный/Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "CNY",
+    "market": "Московская биржа",
+    "risk": "Среднерисковый",
+    "asset": "Валюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Среднесрочный/Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "BYR",
+    "market": "Московская биржа",
+    "risk": "Среднерисковый",
+    "asset": "Валюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Среднесрочный/Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "GBP",
+    "market": "Forex",
+    "risk": "Среднерисковый",
+    "asset": "Валюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Среднесрочный/Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "JPY",
+    "market": "Forex",
+    "risk": "Среднерисковый",
+    "asset": "Валюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Среднесрочный/Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "KZT",
+    "market": "Московская биржа",
+    "risk": "Среднерисковый",
+    "asset": "Валюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Среднесрочный/Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "BTC",
+    "market": "Bybit",
+    "risk": "Высокорисковый",
+    "asset": "Криптовалюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный/Среднесрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "ETH",
+    "market": "Bybit",
+    "risk": "Высокорисковый",
+    "asset": "Криптовалюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный/Среднесрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "XRP",
+    "market": "Bybit",
+    "risk": "Высокорисковый",
+    "asset": "Криптовалюта",
+    "parameter": "-",
+    "liquidity": "Средняя",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "BNB",
+    "market": "Bybit",
+    "risk": "Высокорисковый",
+    "asset": "Криптовалюта",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный/Среднесрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "LKZ6",
+    "market": "Московская биржа",
+    "risk": "Высокорисковый",
+    "asset": "Фьючерс",
+    "parameter": "-",
+    "liquidity": "Средняя",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "RNM8",
+    "market": "Московская биржа",
+    "risk": "Высокорисковый",
+    "asset": "Фьючерс",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "NVM6",
+    "market": "Московская биржа",
+    "risk": "Высокорисковый",
+    "asset": "Фьючерс",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "HKFE",
+    "market": "СПБ Биржа",
+    "risk": "Высокорисковый",
+    "asset": "Фьючерс",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "GOOGL",
+    "market": "NASDAQ",
+    "risk": "Высокорисковый",
+    "asset": "Фьючерс",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "NVDA",
+    "market": "NASDAQ",
+    "risk": "Высокорисковый",
+    "asset": "Фьючерс",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "AAPL",
+    "market": "NASDAQ",
+    "risk": "Высокорисковый",
+    "asset": "Фьючерс",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "AFM6",
+    "market": "Московская биржа",
+    "risk": "Высокорисковый",
+    "asset": "Фьючерс",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "LKOH",
+    "market": "Московская биржа",
+    "risk": "Высокорисковый",
+    "asset": "Опцион",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "ROSN",
+    "market": "Московская биржа",
+    "risk": "Высокорисковый",
+    "asset": "Опцион",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "NVTK",
+    "market": "Московская биржа",
+    "risk": "Высокорисковый",
+    "asset": "Опцион",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "AFM6",
+    "market": "Московская биржа",
+    "risk": "Высокорисковый",
+    "asset": "Опцион",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "HKFE",
+    "market": "СПБ Биржа",
+    "risk": "Высокорисковый",
+    "asset": "Опцион",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "NVDA",
+    "market": "NASDAQ",
+    "risk": "Высокорисковый",
+    "asset": "Опцион",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "GOOGL",
+    "market": "NASDAQ",
+    "risk": "Высокорисковый",
+    "asset": "Опцион",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "AAPL",
+    "market": "NASDAQ",
+    "risk": "Высокорисковый",
+    "asset": "Опцион",
+    "parameter": "-",
+    "liquidity": "Высокая",
+    "horizon": "Краткосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "Современный 8",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Фонд недвижимости",
+    "parameter": "-",
+    "liquidity": "Низкая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "СКН 3",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Фонд недвижимости",
+    "parameter": "-",
+    "liquidity": "Низкая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Да"
+  },
+  {
+    "name": "Лужники Коллекшн Москва",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Фонд недвижимости",
+    "parameter": "-",
+    "liquidity": "Низкая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "Квадратные метры (TKVM)",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Фонд недвижимости",
+    "parameter": "-",
+    "liquidity": "Низкая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "Современный 10",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Фонд недвижимости",
+    "parameter": "-",
+    "liquidity": "Низкая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "Современный Арендный бизнес 2",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Фонд недвижимости",
+    "parameter": "-",
+    "liquidity": "Низкая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "Активо 20",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Фонд недвижимости",
+    "parameter": "-",
+    "liquidity": "Низкая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  },
+  {
+    "name": "Самолет. Инвестиции в недвижимость (XHOUSE)",
+    "market": "Московская биржа",
+    "risk": "Низкорисковый",
+    "asset": "Фонд недвижимости",
+    "parameter": "-",
+    "liquidity": "Низкая",
+    "horizon": "Долгосрочный",
+    "investor_qualification": "Нет"
+  }
+]
+}
