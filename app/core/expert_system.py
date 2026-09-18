@@ -80,7 +80,7 @@ class ExpertSystem:
             elif user_input['market'] != '':
                 coef = 0
 
-            if user_input['investor_qualification'] == 'нет' and asset_info['investor_qualification'] == 'Да':
+            if user_input['investor_qualification'].lower() == 'нет' and asset_info['investor_qualification'].lower() == 'да':
                 coef = 0
             elif user_input['investor_qualification'] != '':
                 rate += self.weights['investor_qualification']
