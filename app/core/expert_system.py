@@ -24,13 +24,13 @@ class ExpertSystem:
         }
 
         self.assets_match = {
-            'Акция': ['Криптовалюта', 'Опцион', '', 'Фьючерс', 'Валюта', '', '', 'Фонд недвижимости', '', 'Облигация', '', '', '', '', 'Акция'],
-            'Облигация': ['Криптовалюта', 'Опцион', '', 'Фьючерс', 'Валюта', '', '', 'Фонд недвижимости', '', 'Акция', '', '', '', '', 'Облигация'],
-            'Валюта': ['Фонд недвижимости', 'Облигация', 'Опцион', '', 'Фьючерс', '', 'Акция', '', '', 'Криптовалюта', '', '', '', '', 'Валюта'],
-            'Криптовалюта': ['Фонд недвижимости', '', 'Облигация', 'Акция', '', 'Опцион', 'Фьючерс', '', '', 'Валюта', '', '', '', '', 'Криптовалюта'],
-            'Фьючерс': ['Фонд недвижимости', 'Облигация', 'Акция', '', 'Валюта', '', 'Криптовалюта', '', '', 'Опцион', '', '', '', '', 'Фьючерс'],
-            'Опцион': ['Фонд недвижимости', '', 'Облигация', 'Акция', '', 'Валюта', 'Криптовалюта', '', '', 'Фьючерс', '', '', '', '', 'Опцион'],
-            'Фонд недвижимости': ['Криптовалюта', 'Опцион', 'Фьючерс', 'Валюта', '', '', 'Облигация', '', 'Акция', '', '', '', '', '', 'Фонд недвижимости']
+            'Stock': ['Cryptocurrency', 'Option', '', 'Features', 'Currency', '', '', 'REIT', '', 'Bond', '', '', '', '', 'Stock'],
+            'Bond': ['Cryptocurrency', 'Option', '', 'Features', 'Currency', '', '', 'REIT', '', 'Stock', '', '', '', '', 'Bond'],
+            'Currency': ['REIT', 'Bond', 'Option', '', 'Features', '', 'Stock', '', '', 'Cryptocurrency', '', '', '', '', 'Currency'],
+            'Cryptocurrency': ['REIT', '', 'Bond', 'Stock', '', 'Option', 'Features', '', '', 'Currency', '', '', '', '', 'Cryptocurrency'],
+            'Features': ['REIT', 'Bond', 'Stock', '', 'Currency', '', 'Cryptocurrency', '', '', 'Option', '', '', '', '', 'Features'],
+            'Option': ['REIT', '', 'Bond', 'Stock', '', 'Currency', 'Cryptocurrency', '', '', 'Features', '', '', '', '', 'Option'],
+            'REIT': ['Cryptocurrency', 'Option', 'Features', 'Currency', '', '', 'Bond', '', 'Stock', '', '', '', '', '', 'REIT']
         }
 
 
@@ -69,12 +69,12 @@ class ExpertSystem:
             if asset_info['liquidity'] == user_input['liquidity']:
                 rate += self.weights['liquidity']
 
-            if asset_info['horizon'] == "Среднесрочный/Долгосрочный":
-                if user_input['horizon'] == "Среднесрочный" or user_input['horizon'] == "Долгосрочный":
+            if asset_info['horizon'] == "Mid-term/Long-term":
+                if user_input['horizon'] == "Mid-term" or user_input['horizon'] == "Long-term":
                     rate += self.weights['horizon']
 
-            if asset_info['horizon'] == "Краткосрочный/Среднесрочный":
-                if user_input['horizon'] == "Среднесрочный" or user_input['horizon'] == "Краткосрочный":
+            if asset_info['horizon'] == "Short-term/Mid-term":
+                if user_input['horizon'] == "Mid-term" or user_input['horizon'] == "Short-term":
                     rate += self.weights['horizon']
 
             elif asset_info['horizon'] == user_input['horizon']:
