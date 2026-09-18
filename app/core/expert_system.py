@@ -97,10 +97,10 @@ class ExpertSystem:
 
 
     def return_markets(self):
-        authors = list(set(asset["market"] for asset in self.data['assets']))
-        return authors
+        markets = list(set(asset["market"] for asset in self.data['assets']))
+        return markets
 
 
     def return_assets(self):
-        genres = list(set(book["asset"] for book in self.data['assets']))
-        return genres
+        assets = list(set(book["asset"] for book in self.data['assets']))
+        return assets
