@@ -1,9 +1,14 @@
 import json
+from pathlib import Path
 
 
 class ExpertSystem:
     def __init__(self):
-        with open("data/assets.json", "r") as f:
+        CURRENT_DIR = Path(__file__).parent
+
+        file_path = CURRENT_DIR / ".." / "data" / "assets.json" 
+
+        with open(file_path, "r") as f:
             self.data = json.load(f)
 
         self.rating = {asset['name'] + ' (' + asset['asset'] + ')': (asset, 0.0) for asset in self.data['assets']}
