@@ -44,17 +44,17 @@ class MainWindow(QMainWindow):
             "investor_qualification": ""
         }
 
-        market_label = QLabel("Биржа")
+        market_label = QLabel("Market")
         self.market_combo = QComboBox()
         markets = self.logic.return_markets()
         markets.append("")
         self.market_combo.addItems(sorted(markets))
 
-        risk_label = QLabel("Риск")
+        risk_label = QLabel("Risk")
         self.risk_combo = QComboBox()
-        self.risk_combo.addItems(["", "Низкорисковый", "Среднерисковый", "Высокорисковый"])
+        self.risk_combo.addItems(["", "Low", "Medium", "High"])
 
-        asset_label = QLabel("Тип актива")
+        asset_label = QLabel("Asset")
         self.asset_combo = QComboBox()
         assets = self.logic.return_assets()
         assets.append("")
@@ -65,21 +65,21 @@ class MainWindow(QMainWindow):
         self.slider_parameter.setMinimum(0)
         self.slider_parameter.setMaximum(2000)
         self.slider_parameter.setSingleStep(1)
-        self.parameter_label = QLabel("Параметр: 0.00%")
+        self.parameter_label = QLabel("Parameter: 0.00%")
         self.parameter_label.setVisible(False)
         self.slider_parameter.valueChanged.connect(self.update_label)
 
-        liquidity_label = QLabel("Ликвидность")
+        liquidity_label = QLabel("Liquidity")
         self.liquidity_combo = QComboBox()
-        self.liquidity_combo.addItems(["", "Низкая", "Средняя", "Высокая"])
+        self.liquidity_combo.addItems(["", "Low", "Medium", "High"])
 
-        horizon_label = QLabel("Горизонт инвестирования")
+        horizon_label = QLabel("Investment Horizont")
         self.horizon_combo = QComboBox()
-        self.horizon_combo.addItems(["", "Краткосрочный", "Среднесрочный", "Долгосрочный"])
+        self.horizon_combo.addItems(["", "Short-term", "Mid-term", "Long-term"])
 
-        investor_qualification_label = QLabel("Квалификация инвестора")
+        investor_qualification_label = QLabel("Investor qualification")
         self.investor_qualification_combo = QComboBox()
-        self.investor_qualification_combo.addItems(["", "да", "нет"])
+        self.investor_qualification_combo.addItems(["", "yes", "no"])
 
         self.market_combo.currentTextChanged.connect(self.update_results)
         self.risk_combo.currentTextChanged.connect(self.update_results)
@@ -128,7 +128,7 @@ class MainWindow(QMainWindow):
 
         self.table.setRowCount(len(asset_names))
         self.table.setColumnCount(2)
-        self.table.setHorizontalHeaderLabels(["Активы", "% совпадения"])
+        self.table.setHorizontalHeaderLabels(["Assets", "match %"])
         self.table.setColumnWidth(0, 300)
         self.table.setColumnWidth(1, 150)
 
@@ -150,7 +150,7 @@ class MainWindow(QMainWindow):
 
 
     def update_label(self, value):
-        self.parameter_label.setText(f"Параметр: {value / 100:.2f}%")
+        self.parameter_label.setText(f"Parameter: {value / 100:.2f}%")
 
 
     def update_results(self):
