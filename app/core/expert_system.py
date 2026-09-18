@@ -35,9 +35,6 @@ class ExpertSystem:
         for crit, val in user_input.items():
             if val != '' and val != 0:
                 max_match += self.weights[crit]
-                print(crit, val)
-
-        print(max_match)
 
         for asset_name, asset in self.rating.items():
             asset_info = asset[0]
@@ -47,8 +44,6 @@ class ExpertSystem:
             if asset_info['risk'] == user_input['risk']:
                 rate += self.weights['risk']
 
-            print(rate)
-
             if user_input['asset'] != '':
                 asset_coef = self.assets_match[asset_info['asset']].index(user_input['asset']) / 14
 
@@ -56,8 +51,6 @@ class ExpertSystem:
                     asset_coef = 1
 
                 rate += asset_coef * self.weights['asset']
-
-            print(rate)
 
             #parameter
             if user_input['parameter'] != 0 and asset_info['parameter'] != '-':
@@ -74,9 +67,11 @@ class ExpertSystem:
             if asset_info['horizon'] == "Среднесрочный/Долгосрочный":
                 if user_input['horizon'] == "Среднесрочный" or user_input['horizon'] == "Долгосрочный":
                     rate += self.weights['horizon']
+
             if asset_info['horizon'] == "Краткосрочный/Среднесрочный":
                 if user_input['horizon'] == "Среднесрочный" or user_input['horizon'] == "Краткосрочный":
                     rate += self.weights['horizon']
+
             elif asset_info['horizon'] == user_input['horizon']:
                 rate += self.weights['horizon']
 
@@ -91,8 +86,6 @@ class ExpertSystem:
                 rate += self.weights['investor_qualification']
 
             rate *= coef
-
-            print(rate)
 
             self.rating[asset_name] = (asset_info, rate)
 
