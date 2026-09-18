@@ -165,10 +165,6 @@ class MainWindow(QMainWindow):
             'investor_qualification': self.investor_qualification_combo.currentText(),
         }
 
-
-        print(self.user_input)
-        print(self.user_input_null)
-
         if (self.user_input == self.user_input_null):
             self.print_table()
         else:
@@ -216,15 +212,11 @@ class MainWindow(QMainWindow):
             asset_rate = QTableWidgetItem(str(round(match_percent, 1)))
             if match_percent > 80:
                 asset_item.setBackground(QColor(39, 230, 144, 50))
-                print("GREEN", asset, rate)
             elif match_percent < 30:
                 asset_item.setBackground(QColor(255, 34, 0, 50))
-                print("RED", asset, rate)
             else:
                 asset_item.setBackground(QColor(247, 234, 0, 50))
-                print("YELLOW", asset, rate)
             self.table.setItem(i, 0, asset_item)
             self.table.setItem(i, 1, asset_rate)
             i += 1
-        print('---------------')
         return 0
